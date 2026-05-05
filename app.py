@@ -61,6 +61,7 @@ if st.button('PREDICT'):
 
     #display
     if result == 1:
-        st.header("Spam")
+        st.error("Spam")
+        
     else:
-        st.header("Not spam")
+        st.success("Not spam")
