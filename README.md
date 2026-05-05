@@ -22,17 +22,6 @@ It classifies whether a given message is **Spam** or **Not Spam**.
 - NLTK
 - Pandas & NumPy
 
----
-
-## Project Structure
-
-├── app.py # Main Streamlit app
-├── model.pkl # Trained ML model
-├── vectorizer.pkl # TF-IDF vectorizer
-├── spam.csv # Dataset
-├── requirements.txt # Dependencies
-├── notebook.ipynb # Model training (optional)
-└── README.md
 
 ---
 
