@@ -6,6 +6,14 @@ from nltk.corpus import stopwords
 import string
 from nltk.stem.porter import PorterStemmer
 
+@st.cache_resource
+def load_nltk():
+    nltk.download('punkt')
+    nltk.download('stopwords')
+    nltk.download('punkt_tab')
+
+load_nltk()
+
 def transform_text(text):
     text = text.lower()
     text = nltk.word_tokenize(text)
